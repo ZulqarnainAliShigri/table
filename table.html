@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark-Sheet</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        h3 {
+            text-align: center;
+            margin: auto;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #exam-type {
+            text-transform: none;
+            text-decoration: underline;
+        }
+
+        .result-container {
+            align-items: center;
+            border: 1px solid black;
+            margin: auto;
+            padding: 10px;
+            width: 70%;
+            background-color: #e9f5e9;
+            box-shadow: 2px 2px 5px 10px lightgray;
+            border-radius: 5px;
+
+        }
+
+        .details-table {
+            border-collapse: collapse;
+            width: 97%;
+            margin: auto;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .details-table th {
+            background-color: #a1acda;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        .details-table td {
+            padding: 10px;
+            border: 1px solid black;
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .marks-title {
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .footer {
+            text-align: right;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="result-container">
+        <h3>Board of Intermediate and Secondary Education Rawalpindi<br><br>Result Intimation<br><br>
+            <span id="exam-type">SSC Annual Examination 2024</span>
+        </h3>
+
+        <table class="details-table">
+            <tr>
+                <td><strong>ROLL NO</strong></td>
+                <td>123456</td>
+            </tr>
+            <tr>
+                <td><strong>STUDENT NAME</strong></td>
+                <td>ZULQARNAIN ALI</td>
+            </tr>
+            <tr>
+                <td><strong>STUDENT TYPE</strong></td>
+                <td>REGULAR</td>
+            </tr>
+            <tr>
+                <td><strong>GRAND TOTAL</strong></td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td><strong>STATUS</strong></td>
+                <td>PASS</td>
+            </tr>
+            <tr>
+                <td><strong>FORM-ID (for office use only)</strong></td>
+                <td>12345667</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <div>
+            <p class="marks-title">Detail of Marks Obtained by Candidate</p>
+
+            <table class="details-table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Theory-I</th>
+                        <th>Theory-II</th>
+                        <th>Practical</th>
+                        <th>Remarks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ENGLISH (COMPULSORY)</td>
+                        <td>77</td>
+                        <td>88</td>
+                        <td>-</td>
+                        <td>PASS</td>
+                    </tr>
+                    <tr>
+                        <td>URDU (COMPULSORY)</td>
+                        <td>69</td>
+                        <td>91</td>
+                        <td>-</td>
+                        <td>PASS</td>
+                    </tr>
+                    <tr>
+                        <td>ISLAMIYAT (COMPULSORY)</td>
+                        <td>44</td>
+                        <td>45</td>
+                        <td>-</td>
+                        <td>PASS</td>
+                    </tr>
+                    <tr>
+                        <td>PAKISTAN STUDIES</td>
+                        <td>40</td>
+                        <td>37</td>
+                        <td>-</td>
+                        <td>PASS</td>
+                    </tr>
+                    <tr>
+                        <td>MATHEMATICS (COMPULSORY)</td>
+                        <td>79</td>
+                        <td>91</td>
+                        <td>-</td>
+                        <td>PASS</td>
+                    </tr>
+                    <tr>
+                        <td>BIOLOGY</td>
+                        <td>46</td>
+                        <td>55</td>
+                        <td>20</td>
+                        <td>PASS</td>
+                    </tr>
+                    <tr>
+                        <td>PHYSICS</td>
+                        <td>50</td>
+                        <td>57</td>
+                        <td>19</td>
+                        <td>PASS</td>
+                    </tr>
+                    <tr>
+                        <td>CHEMISTRY</td>
+                        <td>69</td>
+                        <td>40</td>
+                        <td>27</td>
+                        <td>PASS</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="footer">@Developed and designed by Zulqarnain Ali</p>
+        </div>
+    </div>
+</body>
+
+</html>
